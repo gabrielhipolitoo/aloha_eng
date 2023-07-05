@@ -5,7 +5,7 @@ const Inicio = () => {
     <section className="inicial container-md-fluid">
         <div className="sombra d-flex  align-items-center  justify-content-between row gx-0">
            <div className="slogan col-md-6 col-8">
-            <h1 className='h1-md'>
+            <h1>
                 Construindo sonhos, entregando resultados. 
             </h1>
             <p>Somos mais que construção, a gente é a sua realização.</p>

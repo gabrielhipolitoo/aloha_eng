@@ -39,7 +39,7 @@
     font-family: outfit,sans-serif;
     font-weight: 500;
     color: #242b3a;
-    font-size: 0.8em;
+    font-size: .8rem;
     text-decoration: none;
     margin: 0 15px 0 15px;
     transition: all 150ms;
@@ -214,5 +214,3 @@
 }
 
 
-.active{
-}
