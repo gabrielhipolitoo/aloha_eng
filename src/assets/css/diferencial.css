@@ -1,0 +1,58 @@
+.diferencial{
+    width: 100%;
+    padding-bottom: 2%;
+    background-color: #1D2432;
+}
+
+.diferencial > h3 {
+    color: #fff;
+}
+
+.diferencial h3 > span{
+    font-weight: lighter;
+}
+
+.diferencial .textDiferencial{
+    border-radius: 7.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: #fff;
+    padding: 2%;
+    font-size: .8em;
+    font-weight: lighter;
+    margin: 0 8px 0 8px;
+    width: 300px;
+    height: 250px;
+    color: #1D2432;
+    background-color: #ffffff;
+}
+
+
+@media (max-width:992px) {
+
+    .diferencial .textDiferencial{
+        width: 90%;
+        margin: 10px 0 20px 0px;
+        font-size: 1em;
+        }
+
+    
+}
+
+@media (max-width:769px) {
+   .diferencial .textDiferencial{
+        margin: 10px 0 20px 0px;
+    }
+}
+
+[data-animation]{
+    opacity: 0 ;
+    transform: translate3d(-50px, 0,0) ;
+    transition: all 450ms;
+}
+
+[data-animation].active-animation{
+    opacity: 1;
+    transform: translate3d(0,0,0);
+}

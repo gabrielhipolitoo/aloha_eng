@@ -1,0 +1,22 @@
+/* estilos padrao  */
+
+[name="logo"]{
+    width: 6em;
+}
+
+body,html{
+    height: 100%;
+}
+
+
+/* estilos do Main  */
+
+
+/* carregando fonts  */
+
+@font-face {
+    font-family: 'outfit';
+    src: local('outfit'),url(../fonts/outfit/Outfit-Regular.ttf);
+}
+
+

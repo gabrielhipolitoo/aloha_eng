@@ -1,0 +1,86 @@
+.inicial {
+    box-sizing: border-box;
+    height: 100vh;
+    background-image: url('../img/background-initial.jpg');
+    background-size: cover;
+    background-position: 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+.sombra {
+    background-color: #30303077;
+    height: inherit;
+    padding: 2%;
+}
+
+.slogan {
+    width: 490px;
+}
+
+
+.slogan h1 {
+    margin-top: 70px;
+    margin-left: 20px;
+
+    font-weight: bold;
+    font-family: outfit;
+    color: #fff;
+}
+
+
+.slogan p {
+    margin-left: 20px;
+    color: #ffffff;
+    font-size: 1.5em;
+}
+
+.formOrcamento {
+    display: flex;
+    justify-content: center;
+    border-radius: 7.5px;
+    height: 360px;
+    background-color: #ffffff;
+}
+
+.formOrcamento form {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+}
+
+
+.formOrcamento form input {
+    border: 1px solid #242b3a6b;
+    padding: 5px;
+    font-size: 10px;
+    margin: 8px 0;
+    outline: none;
+    border-radius: 5px;
+    height: 35px;
+    transition: all 150ms;
+    width: 100%;
+}
+
+.formOrcamento form input:focus {
+    transition: all 150ms;
+    border: 1px solid #242b3a;
+}
+
+.formOrcamento h2 {
+    margin-top: 9px;
+    font-family: outfit, sans-serif;
+    font-size: 1em;
+}
+
+.formOrcamento form [type="submit"] {
+    border:none ;
+    background-color: #242b3a9c;
+    color: #fff;
+    font-weight: lighter;
+}
+
+.formOrcamento form [type="submit"]:hover {
+    background-color: #242b3a;
+}

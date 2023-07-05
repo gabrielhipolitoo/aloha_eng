@@ -1,0 +1,218 @@
+.nav_main{
+    box-sizing: border-box;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    height:  70px;
+    border-radius:  0 0 50px 0;
+}
+
+
+.group_nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    transition: all 210ms;
+    height: 70px;
+    border-radius: inherit;
+}
+
+
+
+
+
+ .nav_left{
+    margin-left: 10px;
+    align-items: center;
+    display: flex;
+}
+
+.links{
+    transition: all 150ms;
+}
+
+
+
+.links a{
+    font-family: outfit,sans-serif;
+    font-weight: 500;
+    color: #242b3a;
+    font-size: 0.8em;
+    text-decoration: none;
+    margin: 0 15px 0 15px;
+    transition: all 150ms;
+    }
+
+.links a:hover{
+    transition: all 150ms;
+    color: #313b4e86;
+}
+
+.nav_right{
+    height: inherit;
+    border-radius: inherit;
+    margin-left: auto;
+}
+
+.nav_right > span{
+    font-size: .9em;
+    font-family: outfit,sans-serif;
+    color: rgb(95 95 95);
+    margin-right: 10px;
+}
+
+.nav_right > button {
+    border: none;
+    color:#fff;
+    padding: 20px;
+    border-radius: inherit;
+    height: inherit;
+    background-color: #1D2432;
+    font-weight: bold;
+}
+
+.nav_right button:hover {
+    transition: all 150ms;
+     background-color: #1d2432e3;
+}
+
+.menu_mobile{
+    display: none;
+}
+
+  #fecharMobile {
+      display: none;
+  }
+    
+
+/* navbar reponsiva  */
+
+@media (max-width: 768px) {
+
+    
+
+    .nav_main{
+        position: relative;
+        align-items:initial;
+        border-radius: 0;
+    }
+
+
+    .group_nav{
+        display: none;
+    }
+
+    .nav_right{
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+    }
+
+    .nav_right button{
+        border-radius: 0;
+        
+    }
+
+
+   .menu_mobile {
+       display: flex;
+       align-items: center;
+       margin-left: auto;
+       justify-content: center;
+    }
+
+    #fecharMobile{
+        background-color: transparent;
+        border: none;
+        display: block;
+        margin-left: auto;
+    }
+
+    #fecharMobile  svg{
+        fill: #fff;
+        height: 42px;
+    }
+
+    #fecharMobile svg:hover {
+        fill: #2c3549;
+    }
+
+    .menu_mobile  button{
+        background-color: transparent;
+        border: none;
+    }
+
+    .menu_mobile button svg {
+        font-size: 20px;
+        height: 35px;
+        fill: #242b3a;
+    }
+    #navbar.active .nav_main{
+        background-color: red !important;
+    }
+    
+    #navbar.active .group_nav {
+        position: fixed;
+        border-radius: 0;
+        width: 40%;
+        left: 100%;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        justify-content: spa;
+        align-items: center;
+        z-index: 4;
+        gap: 3em ;
+        justify-content: space-evenly;
+        background-color: #1D2432;
+        margin-left: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .links{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav_right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        flex-direction: column;
+        border-radius: 0;
+        margin: 0;
+        height: 100px;
+    }
+
+    .nav_right button{
+        font-weight: lighter;
+        background-color: #242b3a;
+        border-radius: 10px;
+        width: 120px;
+        padding: 0;
+        height: 50px;
+    }
+    #navbar.active .menu_mobile{
+        display: none;
+    }
+
+    .links a {
+        color: #fff;
+        font-size: 1.2em;
+        margin-top: 25px;
+    }
+
+    .nav_right span{
+        margin: 0 0 20px 0px;
+        color: #686767;
+    }
+
+}
+
+
+.active{
+}
