@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/aloha_eng/static/css/main.fdffa65c.css",
+    "main.css": "/aloha_eng/static/css/main.478fcd2a.css",
     "main.js": "/aloha_eng/static/js/main.bc927792.js",
     "static/media/background_inicial.jpg": "/aloha_eng/static/media/background_inicial.105b82cacc7f02397134.jpg",
     "static/media/logo+nome.png": "/aloha_eng/static/media/logo+nome.19f83dd901f90268d64b.png",
-    "static/media/Outfit-Regular.ttf": "/aloha_eng/static/media/Outfit-Regular.e853df41b41bc9489a8b.ttf",
     "index.html": "/aloha_eng/index.html",
-    "main.fdffa65c.css.map": "/aloha_eng/static/css/main.fdffa65c.css.map",
+    "main.478fcd2a.css.map": "/aloha_eng/static/css/main.478fcd2a.css.map",
     "main.bc927792.js.map": "/aloha_eng/static/js/main.bc927792.js.map"
   },
   "entrypoints": [
-    "static/css/main.fdffa65c.css",
+    "static/css/main.478fcd2a.css",
     "static/js/main.bc927792.js"
   ]
 }
