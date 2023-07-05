@@ -1,7 +1,7 @@
 .inicial {
     box-sizing: border-box;
     height: 100vh;
-    background-image: url('../img/background-initial.jpg');
+   
     background-size: cover;
     background-position: 100%;
     background-repeat: no-repeat;
