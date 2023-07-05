@@ -1,13 +1,18 @@
 /* estilos padrao  */
 
-[name="logo"]{
-    width: 6em;
+
+
+:root{
+    font-size: 16px;
 }
 
-body,html{
+[name="logo"]{
+    width: 9%;
+}
+
+html {
     height: 100%;
 }
-
 
 /* estilos do Main  */
 

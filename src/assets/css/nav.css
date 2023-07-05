@@ -39,8 +39,8 @@
     font-family: outfit,sans-serif;
     font-weight: 500;
     color: #242b3a;
-    font-size: .8rem;
     text-decoration: none;
+    font-size: 1rem;
     margin: 0 15px 0 15px;
     transition: all 150ms;
     }
@@ -57,7 +57,6 @@
 }
 
 .nav_right > span{
-    font-size: .9em;
     font-family: outfit,sans-serif;
     color: rgb(95 95 95);
     margin-right: 10px;
