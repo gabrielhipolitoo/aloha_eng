@@ -1,6 +1,6 @@
 .inicial {
     box-sizing: border-box;
-    height: 100vh;
+    height: 90vh;
     background-image: url('../img/background_inicial.jpg');
     background-size: cover;
     background-position: 100%;
@@ -23,7 +23,7 @@
 .slogan h1 {
     margin-top: 70px;
     margin-left: 20px;
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: bold;
     font-family: outfit;
     color: #fff;

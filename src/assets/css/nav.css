@@ -4,6 +4,7 @@
     width: 100%;
     display: flex;
     align-items: center;
+    gap: 5px;
     background-color: #ffffff;
     height:  70px;
     border-radius:  0 0 50px 0;
@@ -40,6 +41,7 @@
     font-weight: 500;
     color: #242b3a;
     text-decoration: none;
+    font-family: outfit,sans-serif;
     font-size: 1rem;
     margin: 0 15px 0 15px;
     transition: all 150ms;
@@ -57,7 +59,7 @@
 }
 
 .nav_right > span{
-    font-family: 'outfit',sans-serif;
+    font-family: outfit,sans-serif;
     color: rgb(95 95 95);
     margin-right: 10px;
 }
