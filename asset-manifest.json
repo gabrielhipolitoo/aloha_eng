@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/aloha_eng/static/css/main.bc35d11d.css",
-    "main.js": "/aloha_eng/static/js/main.9814ce82.js",
+    "main.css": "/aloha_eng/static/css/main.81d2fb77.css",
+    "main.js": "/aloha_eng/static/js/main.04bbbfb5.js",
     "static/media/background_inicial.jpg": "/aloha_eng/static/media/background_inicial.105b82cacc7f02397134.jpg",
     "static/media/logo+nome.png": "/aloha_eng/static/media/logo+nome.19f83dd901f90268d64b.png",
     "static/media/Outfit-Regular.ttf": "/aloha_eng/static/media/Outfit-Regular.e853df41b41bc9489a8b.ttf",
     "index.html": "/aloha_eng/index.html",
-    "main.bc35d11d.css.map": "/aloha_eng/static/css/main.bc35d11d.css.map",
-    "main.9814ce82.js.map": "/aloha_eng/static/js/main.9814ce82.js.map"
+    "main.81d2fb77.css.map": "/aloha_eng/static/css/main.81d2fb77.css.map",
+    "main.04bbbfb5.js.map": "/aloha_eng/static/js/main.04bbbfb5.js.map"
   },
   "entrypoints": [
-    "static/css/main.bc35d11d.css",
-    "static/js/main.9814ce82.js"
+    "static/css/main.81d2fb77.css",
+    "static/js/main.04bbbfb5.js"
   ]
 }
