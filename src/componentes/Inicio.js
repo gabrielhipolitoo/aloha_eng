@@ -3,8 +3,8 @@ import '../assets/css/inicio.css'
 const Inicio = () => {
   return (
     <section className="inicial container-md-fluid">
-        <div className="sombra d-flex  align-items-center  justify-content-between row gx-0">
-           <div className="slogan col-md-6 col-8">
+        <div className="sombra   ">
+           <div className="slogan ">
             <h1>
                 Construindo sonhos, entregando resultados. 
             </h1>

@@ -5,29 +5,10 @@ import '../assets/css/diferencial.css'
 export const Diferencial = () => {
 
   
-    window.addEventListener('scroll',() => {
-            const eventScroll = document.querySelectorAll('[data-animation]')
-            
-            const windotTop = window.scrollY + (window.innerHeight * 3 / 4)
-
-            eventScroll.forEach((element) => {
-                if((windotTop) > element.offsetTop){
-                    element.classList.add('active-animation')
-                }
-
-                else{
-                    element.classList.remove('active-animation')
-
-                }
-            })
-
-    })
-
-
 
   return (
     <article className='diferencial flex-column align-items-center  flex-lg-row fex-nowrap justify-content-evenly row gx-0 container-fluid' >
-        <h4 className='col-11 p-2 '><span>Nossos</span> diferenciais</h4>
+        <h4 className='col-11 p-2 '><span>Nossos</span> Diferenciais</h4>
         <div className='textDiferencial ' data-animation>
             <h3>
                 Atendimento

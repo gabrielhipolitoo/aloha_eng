@@ -13,10 +13,14 @@
     background-color: #30303077;
     height: inherit;
     padding: 2%;
+    display: flex;
+    align-items: center;
+
 }
 
 .slogan {
-    width: 490px;
+    max-width: 98%;
+    width: 100%;
 }
 
 
@@ -83,4 +87,15 @@
 
 .formOrcamento form [type="submit"]:hover {
     background-color: #242b3a;
+}
+
+@media (max-width:768px){
+
+    .slogan{
+        width: 680px;
+    }
+
+    .slogan h1{
+        font-size: 3rem;
+    }
 }

@@ -19,8 +19,9 @@ export const Nav = () => {
   // Eventos com scroll 
   window.addEventListener('scroll', () =>{
       const nav_main = document.querySelector('.nav_main') 
-    if(window.scrollY >= 70){
-      nav_main.style="border-radius: 0"     
+    if(window.scrollY >= 220){
+      nav_main.style=`border-radius: 0;
+                      box-shadow: #2b313f  1px -11px 8px 9px`    
     }
     else{
       nav_main.style=""     
