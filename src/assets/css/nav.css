@@ -105,7 +105,24 @@
 
 
     .group_nav{
-        display: none;
+        overflow: hidden;
+        box-sizing: border-box;
+        max-width: 50%;
+        width: 400px;
+        position: fixed;
+        border-radius: 0;
+        left: 150%;
+        top: 0;
+        right: 100px;
+        height: 100vh;
+        transition: all 150ms ;
+        align-items: center;
+        z-index: 4;
+        justify-content: space-between;
+        background-color: #1D2432;
+        margin-left: auto;
+        display: flex;
+        flex-direction: column;
     }
 
     .nav_right{
@@ -154,29 +171,26 @@
         fill: #242b3a;
     }
 
-    #navbar.active .nav_main{
-        background-color: red !important;
-    }
-    
-    #navbar.active .group_nav {
-        max-width: 90%;
-        position: fixed;
-        border-radius: 0;
-        width: 450px;
+
+    #navbar.active .group_nav{
+        padding: 2%;
         left: 100%;
         top: 0;
-        right: 0;
+        right: 100px;
         height: 100vh;
-        justify-content: spa;
-        align-items: center;
-        z-index: 4;
-        gap: 3em ;
-        justify-content: space-evenly;
-        background-color: #1D2432;
-        margin-left: auto;
-        display: flex;
-        flex-direction: column;
     }
+
+    @keyframes animMenu {
+        from{
+            width: 0px;
+        }
+
+        to{
+            width: 350px;
+        }
+    }
+
+    
 
     .links{
         display: flex;

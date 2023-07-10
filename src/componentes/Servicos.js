@@ -1,11 +1,15 @@
 import React from 'react'
+import '../assets/css/servicos.css'
+
+// svg
 import logo_projetos from '../assets/img/icones/project.svg'
 import logo_eletric from '../assets/img/icones/eletric.svg'
 import constr_civil from '../assets/img/icones/construcao_civil.svg'
 import infra_eletrica from '../assets/img/icones/infra_eletrica.svg'
 import metal from '../assets/img/icones/metalica.svg'
 import energy from '../assets/img/icones/Energy.svg'
-import '../assets/css/servicos.css'
+
+
 const Servicos = () => {
   return (
     <section className='servicos container-fluid  ' id="servicos">
