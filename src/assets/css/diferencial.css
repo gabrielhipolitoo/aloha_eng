@@ -22,10 +22,11 @@
     flex-direction: column;
     justify-content: space-evenly;
     color: #fff;
-    font-size: .8rem;
+    font-size: .85rem;
     padding: 2%;
+    text-align: center;
     width: 320px;
-    height: 250px;
+    height: 300px;
     color: #1D2432;
     background-color: #ffffff;
 }
