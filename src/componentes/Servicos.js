@@ -28,7 +28,7 @@ const Servicos = () => {
         <div data-animation>
           <img src={energy} alt="" />
           <h4>Subestação de Energia</h4>
-          <p>Execução de subestação de até 50 kVA
+          <p>Execução de subestação de até 750 kVA
           </p>
         </div>
         <div data-animation>
