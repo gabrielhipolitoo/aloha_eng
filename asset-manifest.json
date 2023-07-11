@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/aloha_eng/static/css/main.903b0841.css",
+    "main.css": "/aloha_eng/static/css/main.dc6a3026.css",
     "main.js": "/aloha_eng/static/js/main.f97cbff3.js",
     "static/media/background_inicial.jpg": "/aloha_eng/static/media/background_inicial.105b82cacc7f02397134.jpg",
     "static/media/logo+nome.png": "/aloha_eng/static/media/logo+nome.19f83dd901f90268d64b.png",
@@ -12,11 +12,11 @@
     "static/media/eletric.svg": "/aloha_eng/static/media/eletric.949fb8673c60934a9e5e0b96aa13e00d.svg",
     "static/media/Energy.svg": "/aloha_eng/static/media/Energy.990ca404265ec53283e1a4d6a8988a4b.svg",
     "static/media/metalica.svg": "/aloha_eng/static/media/metalica.dd0ccd9badb6bf9f88f47fae2883388d.svg",
-    "main.903b0841.css.map": "/aloha_eng/static/css/main.903b0841.css.map",
+    "main.dc6a3026.css.map": "/aloha_eng/static/css/main.dc6a3026.css.map",
     "main.f97cbff3.js.map": "/aloha_eng/static/js/main.f97cbff3.js.map"
   },
   "entrypoints": [
-    "static/css/main.903b0841.css",
+    "static/css/main.dc6a3026.css",
     "static/js/main.f97cbff3.js"
   ]
 }
