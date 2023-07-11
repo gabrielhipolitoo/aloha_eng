@@ -3,7 +3,7 @@
     position: fixed;
     width: 100%;
     display: flex;
-    z-index: 10;
+    z-index: 1;
     justify-content: center;
     align-items: center;
     background-color: #ffffff;
@@ -14,6 +14,7 @@
 
 .nav_main > img {
     display: flex;
+    width: 190px;
     margin-right: auto;
     margin-left: 20px;
 }
@@ -103,20 +104,26 @@
         border-radius: 0;
     }
 
+    .nav_left{
+        margin: auto;
+    }
 
     .group_nav{
-        max-width: 50%;
-        width: 400px;
+        display: none;
+        box-sizing:border-box ;
+        width: 70vw;
         position: fixed;
+        padding: 4%;
         border-radius: 0;
         transform: translateX(100%);
         top: 0;
         left: 0;
+        bottom: 0;
         right: 0;
         height: 100vh;
         align-items: center;
-        z-index: 4;
-        justify-content: space-between;
+        z-index: 1;
+        justify-content: center;
         background-color: #1D2432;
         margin-left: auto;
         display: flex;
@@ -131,7 +138,7 @@
     .nav_right{
         display: flex;
         align-items: center;
-        margin-left: 10px;
+        margin-bottom: auto;
     }
 
     .nav_right button{
@@ -152,6 +159,7 @@
         border: none;
         display: block;
         margin-left: auto;
+        margin-bottom: auto;
     }
 
     #fecharMobile  svg{

@@ -13,7 +13,7 @@ import energy from '../assets/img/icones/Energy.svg'
 const Servicos = () => {
   return (
     <section className='servicos container-fluid  ' id="servicos">
-      <h1>Área de Atuação</h1>
+      <h1>Áreas de Atuação</h1>
       <div className="container_servicos">
         <div data-animation>
           <img src={logo_projetos} alt="Logo elaboração de projetos" />
