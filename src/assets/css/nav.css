@@ -105,17 +105,15 @@
 
 
     .group_nav{
-        overflow: hidden;
-        box-sizing: border-box;
         max-width: 50%;
         width: 400px;
         position: fixed;
         border-radius: 0;
-        left: 150%;
+        transform: translateX(100%);
         top: 0;
-        right: 100px;
+        left: 0;
+        right: 0;
         height: 100vh;
-        transition: all 150ms ;
         align-items: center;
         z-index: 4;
         justify-content: space-between;
@@ -123,6 +121,11 @@
         margin-left: auto;
         display: flex;
         flex-direction: column;
+    }
+
+
+    #navbar.active .group_nav {
+        transform: none;
     }
 
     .nav_right{
@@ -172,13 +175,7 @@
     }
 
 
-    #navbar.active .group_nav{
-        padding: 2%;
-        left: 100%;
-        top: 0;
-        right: 100px;
-        height: 100vh;
-    }
+
 
     @keyframes animMenu {
         from{
