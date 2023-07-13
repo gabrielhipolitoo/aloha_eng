@@ -16,7 +16,7 @@ export const Footer = () => {
         </div>
         <div className='contato'>
             <h4>Contato</h4>
-            <p>rafael.hipolito@alohaengenharia.com.br</p>
+            <p>aloha@alohaengenharia.com.br</p>
             <p>+55 71 9 9213-5500</p>
         </div>
         <div className='redes_sociais'>
