@@ -1,7 +1,14 @@
+import react from 'react'
+
+import { BrowserRouter,Routes,Route,Navigate } from 'react-router-dom';
+
+//componentes
 import { Diferencial } from './componentes/Diferencial';
+import { Footer } from './componentes/Footer';
 import Inicio from './componentes/Inicio';
 import { Nav } from './componentes/Nav';
 import Servicos from './componentes/Servicos';
+import { Componentes } from './Componentes';
 function App() {
 
    window.addEventListener('scroll',() => {
@@ -25,10 +32,15 @@ function App() {
 
   return (
     <main>
-    <Nav/>
-    <Inicio/>
-    <Diferencial/>
-    <Servicos/>
+    <BrowserRouter>
+      <Nav/>
+      <Routes>
+        <Route path="/" element={<Navigate to="/aloha_engenharia"/>}/>
+        <Route path="/aloha_engenharia" element={<Componentes/>}/>
+      </Routes>
+      
+      <Footer/>
+    </BrowserRouter>
     </main>
     
   );

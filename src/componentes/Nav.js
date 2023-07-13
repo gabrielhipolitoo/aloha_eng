@@ -32,20 +32,18 @@ export const Nav = () => {
 
   return (
     <nav id="navbar" className="nav_main">
-        <img name="logo"  src={logo} alt="Logo da empresa -Aloha Engenharia" />
-
+      <div className=''></div>
+        <div className="logo"></div>
         <div className="group_nav">
               <button onClick={toogleMenu} id='fecharMobile'>
                 <Fechar/>
               </button>
-              <div className="nav_left">
-                <div className="links text-1">
+                <div className="links ">
                 <a href="">Inicio</a>
                 <a href="">Quem somos</a>
                 <a href="">Serviços</a>
                 <a href="">Projetos concluidos</a>
                 </div> {/*Links*/}
-              </div>
               
               <div className="nav_right">
                 <span >+55 71 9 9213-5500</span>
