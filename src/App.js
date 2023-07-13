@@ -1,6 +1,6 @@
 import react from 'react'
 
-import { BrowserRouter,Routes,Route,Navigate } from 'react-router-dom';
+import { BrowserRouter,Routes,Route,Navigate,HashRouter } from 'react-router-dom';
 
 //componentes
 import { Diferencial } from './componentes/Diferencial';
@@ -32,7 +32,7 @@ function App() {
 
   return (
     <main>
-    <BrowserRouter>
+    <HashRouter>
       <Nav/>
       <Routes>
         <Route path="/" element={<Navigate to="/aloha_engenharia"/>}/>
@@ -40,7 +40,7 @@ function App() {
       </Routes>
       
       <Footer/>
-    </BrowserRouter>
+    </HashRouter>
     </main>
     
   );
