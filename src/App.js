@@ -9,6 +9,7 @@ import Inicio from './componentes/Inicio';
 import { Nav } from './componentes/Nav';
 import Servicos from './componentes/Servicos';
 import { Componentes } from './Componentes';
+import { QuemSomos } from './componentes/QuemSomos';
 function App() {
 
    window.addEventListener('scroll',() => {
@@ -32,15 +33,16 @@ function App() {
 
   return (
     <main>
-    <HashRouter>
       <Nav/>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Navigate to="/aloha_engenharia"/>}/>
         <Route path="/aloha_engenharia" element={<Componentes/>}/>
+        <Route path="/quemsomos" element={<QuemSomos/>}/>
       </Routes>
       
-      <Footer/>
     </HashRouter>
+      <Footer/>
     </main>
     
   );

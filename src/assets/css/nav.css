@@ -45,11 +45,6 @@
 }
 
 
-
-
-
-
-
 .links a{
     font-family: outfit,sans-serif;
     font-weight: 500;
@@ -193,19 +188,6 @@
         font-size: 20px;
         height: 35px;
         fill: #242b3a;
-    }
-
-
-
-
-    @keyframes animMenu {
-        from{
-            width: 0px;
-        }
-
-        to{
-            width: 350px;
-        }
     }
 
     
