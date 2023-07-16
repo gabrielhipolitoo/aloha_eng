@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/aloha_eng/static/css/main.14b8389e.css",
-    "main.js": "/aloha_eng/static/js/main.623bc631.js",
+    "main.css": "/aloha_eng/static/css/main.34990523.css",
+    "main.js": "/aloha_eng/static/js/main.9e699bea.js",
     "static/media/background_inicial.jpg": "/aloha_eng/static/media/background_inicial.105b82cacc7f02397134.jpg",
+    "static/media/backgroundQuem.jpg": "/aloha_eng/static/media/backgroundQuem.c3bb3e72f1fd1fa07ebd.jpg",
     "static/media/logo+nome.png": "/aloha_eng/static/media/logo+nome.19f83dd901f90268d64b.png",
     "static/media/Outfit-Regular.ttf": "/aloha_eng/static/media/Outfit-Regular.e853df41b41bc9489a8b.ttf",
     "static/media/insta.svg": "/aloha_eng/static/media/insta.6d4d0d3db8ff5daf53f7e9e6e161eb23.svg",
@@ -15,11 +16,11 @@
     "static/media/linkedin.svg": "/aloha_eng/static/media/linkedin.30a765d046d3d02a3902d7b2803adea2.svg",
     "static/media/Energy.svg": "/aloha_eng/static/media/Energy.990ca404265ec53283e1a4d6a8988a4b.svg",
     "static/media/metalica.svg": "/aloha_eng/static/media/metalica.dd0ccd9badb6bf9f88f47fae2883388d.svg",
-    "main.14b8389e.css.map": "/aloha_eng/static/css/main.14b8389e.css.map",
-    "main.623bc631.js.map": "/aloha_eng/static/js/main.623bc631.js.map"
+    "main.34990523.css.map": "/aloha_eng/static/css/main.34990523.css.map",
+    "main.9e699bea.js.map": "/aloha_eng/static/js/main.9e699bea.js.map"
   },
   "entrypoints": [
-    "static/css/main.14b8389e.css",
-    "static/js/main.623bc631.js"
+    "static/css/main.34990523.css",
+    "static/js/main.9e699bea.js"
   ]
 }
