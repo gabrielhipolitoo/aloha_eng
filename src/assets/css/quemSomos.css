@@ -142,19 +142,17 @@
   .empresa p {
     margin: 0 auto;
     text-align: center;
-    font-size: 1rem;
   }
   
 }
 
 @media (max-width: 468px) {
   .empresa p {
-    font-size: .8rem;
+    font-size: 1rem;
   }
 }
 
 @media (max-width: 368px) {
   .empresa p {
-    font-size: .8rem;
   }
 }
