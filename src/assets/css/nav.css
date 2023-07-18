@@ -80,7 +80,7 @@
     width: 140px;
     border-radius: inherit;
     height: inherit;
-    background-color: #1D2432;
+    background-color: #191f2d;
     font-weight: bold;
 }
 
@@ -121,7 +121,6 @@
         box-sizing:border-box ;
         width: 70vw;
         position: fixed;
-        padding: 4%;
         border-radius: 0;
         transform: translateX(100%);
         top: 0;
@@ -129,12 +128,12 @@
         bottom: 0;
         right: 0;
         height: 100vh;
-        align-items: center;
         z-index: 1;
-        justify-content: center;
         background-color: #1D2432;
         margin-left: auto;
         display: flex;
+        align-items: center;
+        justify-content: space-between;
         flex-direction: column;
     }
 
@@ -144,14 +143,13 @@
     }
 
     .nav_right{
+        margin-bottom: auto;
         display: flex;
         align-items: center;
-        margin-bottom: auto;
     }
 
     .nav_right button{
         border-radius: 0;
-        
     }
 
 
@@ -159,15 +157,15 @@
        display: flex;
        align-items: center;
        margin-left: auto;
-       justify-content: center;
     }
 
     #fecharMobile{
+        margin-top: 20px;
         background-color: transparent;
         border: none;
         display: block;
         margin-left: auto;
-        margin-bottom: auto;
+        justify-self: self-start;
     }
 
     #fecharMobile  svg{
@@ -190,9 +188,13 @@
         fill: #242b3a;
     }
 
+    .logo{
+        margin-right: auto;
+    }
     
 
     .links{
+        margin: auto;
         display: flex;
         flex-direction: column;
     }
@@ -204,7 +206,6 @@
         width: 100%;
         flex-direction: column;
         border-radius: 0;
-        margin: 0;
         height: 100px;
     }
 
@@ -222,8 +223,8 @@
 
     .links a {
         color: #fff;
-        font-size: 1.2em;
-        margin-top: 25px;
+        font-size: 1.3em;
+        margin-top: 30px;
     }
 
     .nav_right span{

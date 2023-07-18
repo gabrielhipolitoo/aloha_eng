@@ -1,119 +1,160 @@
-.quemSomos{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+.quemSomos {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .quemSomos p {
-    color: #fff;
-    font-weight: lighter;
+  color: #fff;
+  font-weight: lighter;
 }
 
-.quemSomos h3,.quemSomos h4{
-    color: #fff;
+.quemSomos h3,
+.quemSomos h4 {
+  color: #fff;
 }
 
-.bgQuemSomos{
-    background-image: url('../img/backgroundQuem.jpg');
-    background-color: red;
-    width: inherit;
-    margin-top: 90px;
-    height: 79px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.bgBlue {
+  display: flex;
+  justify-content: center;
+  background-image: url("https://images.unsplash.com/photo-1582647509870-c19b2ebb4a8f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80");
+  background-position: 100%;
+  background-size: cover;
+  align-items: center;
+  background-repeat: no-repeat;
+  height: 550px;
 }
 
-.bgQuemSomos h1{
-    color: #fff;
-    vertical-align: middle;
+.empresa {
+  background-color: #1d2432b0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 2%;
+  height: inherit;
+  box-sizing: border-box;
+}
+
+.empresa h3 {
+  margin-top: 50px;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.empresa p {
+  max-width: 90%;
+  width: 610px;
+  text-align: justify;
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+.valores {
+  background-color: #1d2432;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: self-start;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  padding-bottom: 4%;
+}
+
+.valores h3 {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  text-align: center;
+  width: 100%;
+}
+
+.valores > div {
+  width: 320px;
+  display: flex;
+  height: auto;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px 10px 0 10px;
+}
+
+.valores p {
+  text-align: center;
+}
+
+.complemento {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.complemento h4 {
+  margin-bottom: 20px;
+  color: #1d2432;
+}
+
+.complemento > div {
+  width: 550px;
+  height: inherit;
+}
+
+.complemento div ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.complemento > div ul li {
+  text-align: justify;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: #1d2432;
+}
+
+@media (max-width: 1092px) {
+  .complemento > div {
+    width: 90%;
+  }
+}
+
+@media (max-width: 950px) {
+  .empresa h3 {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .empresa h3 {
     text-align: center;
-}
+  }
 
-.bgBlue{
-    width: 100%;
-    background-color: #1D2432;
-    padding-bottom: 20px;
-}
+  .empresa p {
+    margin: 0 auto;
+    text-align: center;
+  }
 
-.empresa{
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    box-sizing: border-box;
-}
-
-.empresa h3{
+  .valores > div {
     margin-top: 20px;
-}
-
-.empresa p{
-    font-weight: lighter;
-    color: #fff;
-    padding: 4%;
-    text-align: center;
-}
-
-.valores{
-    margin: 20px auto;
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;    
-    box-sizing: border-box;
-}
-
-.valores h3{
-    text-align: center;
-    width: 100%;
-    margin-bottom: 30px;
-}
-
-.valores > div{
-    width: 320px;
-    height: 120px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin: 0 40px 0 40px;
-}
-
-.valores p{
-    text-align: center;
-}
-
-.complemento{
-    margin-top: 50px;
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-    height: 400px;
-}
-
-.complemento h4{
     margin-bottom: 20px;
-    color: #1D2432;
+  }
 }
 
-.complemento > div{
-    width: 40%;
-    height: inherit;
+@media (max-width: 568px) {
+  .empresa p {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1rem;
+  }
+  
 }
 
-.complemento div ul{
-    height: 300px;
-    display: flex;
-    flex-direction: column;
+@media (max-width: 468px) {
+  .empresa p {
+    font-size: .8rem;
+  }
 }
 
-.complemento > div ul li{
-    text-align: justify;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    color: #1D2432;
+@media (max-width: 368px) {
+  .empresa p {
+    font-size: .8rem;
+  }
 }
