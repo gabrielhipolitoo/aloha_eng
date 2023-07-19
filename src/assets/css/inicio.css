@@ -87,6 +87,16 @@
     background-color: #242b3a;
 }
 
+@media (min-width: 1500px) {
+    :root{
+        font-size: 22px;
+    }
+    .slogan {
+        width: 50%;
+    }
+    
+}
+
 @media (max-width:768px){
 
     .slogan{

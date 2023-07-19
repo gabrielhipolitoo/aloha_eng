@@ -43,7 +43,7 @@ const Servicos = () => {
             Obras de Infraestrutura Civil
           </h4>
           <p>
-            Construção de edifícios, drenagens,pavimentação,terraplanagem
+            Construção de edifícios, drenagens, pavimentação, terraplanagem
           </p>
         </div>
         <div data-animation>

@@ -2,7 +2,7 @@
 import '../assets/css/inicio.css'
 const Inicio = () => {
   return (
-    <section className="inicial container-md-fluid">
+    <section className="inicial container-md-fluid" id="inicio">
         <div className="sombra   ">
            <div className="slogan ">
             <h1>

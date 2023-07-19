@@ -1,87 +1,90 @@
-.diferencial{
-    width: 100%;
-    padding-bottom: 2%;
-    background-color: #1D2432;
+.diferencial {
+  width: 100%;
+  padding-bottom: 2%;
+  background-color: #1d2432;
 }
 
 .diferencial > h4 {
-    margin-top: 20px;
-    text-align: center;
-    color: #fff;
-    font-size: 1.9rem;
-    margin-bottom: 50px;
+  margin-top: 20px;
+  text-align: center;
+  color: #fff;
+  font-size: 1.9rem;
+  margin-bottom: 50px;
 }
 
-.diferencial h4 > span{
-    font-weight: lighter;
+.diferencial h4 > span {
+  font-weight: lighter;
 }
 
-.diferencial .textDiferencial{
-    border-radius: 7.5px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    color: #fff;
-    font-size: .85rem;
-    padding: 2%;
-    text-align: center;
-    width: 320px;
-    height: 300px;
-    color: #1D2432;
-    background-color: #ffffff;
+.diferencial .textDiferencial {
+  border-radius: 7.5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: #fff;
+  font-size: 0.85rem;
+  padding: 2%;
+  text-align: center;
+  width: 320px;
+  height: 300px;
+  color: #1d2432;
+  background-color: #ffffff;
 }
 
-.textDiferencial h3{
-    font-size: 1.5rem;
+.textDiferencial h3 {
+  font-size: 1.5rem;
 }
 
-
-@media (max-width:1110px) {
-
-    .diferencial .textDiferencial{
-        width: 90%;
-        margin: 10px 0 20px 0px;
-        font-size: 1.2rem;
-        }
-    
+@media (min-width: 1500px) {
+  .diferencial .textDiferencial {
+    width: 30%;
+    height: auto;
+  }
 }
 
-@media (max-width:768px) {
-   .diferencial .textDiferencial{
-        margin: 10px 0 20px 0px;
-        font-size: 1.1rem;
-    }
+@media (max-width: 1110px) {
+  .diferencial .textDiferencial {
+    width: 90%;
+    margin: 10px 0 20px 0px;
+    font-size: 1.2rem;
+  }
 }
 
-@media (max-width:568px) {
-    .diferencial .textDiferencial {
-        margin: 10px 0 20px 0px;
-        font-size: 1rem;
-    }
+@media (max-width: 768px) {
+  .diferencial .textDiferencial {
+    margin: 10px 0 20px 0px;
+    font-size: 1.1rem;
+  }
 }
 
-@media (max-width:468px) {
-    .diferencial .textDiferencial {
-        margin: 10px 0 20px 0px;
-        font-size: .9rem;
-    }
+@media (max-width: 568px) {
+  .diferencial .textDiferencial {
+    margin: 10px 0 20px 0px;
+    font-size: 1rem;
+  }
 }
 
-@media (max-width:368px) {
-    .diferencial .textDiferencial {
-        margin: 10px 0 20px 0px;
-        font-size: .77rem;
-    }
+@media (max-width: 468px) {
+  .diferencial .textDiferencial {
+    margin: 10px 0 20px 0px;
+    font-size: 0.9rem;
+  }
 }
 
-
-[data-animation]{
-    opacity: 0 ;
-    transform: translate3d(-50px, 0,0) ;
-    transition: all 450ms;
+@media (max-width: 368px) {
+  .diferencial .textDiferencial {
+    margin: 10px 0 20px 0px;
+    font-size: 0.77rem;
+  }
 }
 
-[data-animation].active-animation{
-    opacity: 1;
-    transform: translate3d(0,0,0);
+[data-animation] {
+  opacity: 0;
+  transform: translate3d(-50px, 0, 0);
+  transition: all 450ms;
+}
+
+[data-animation].active-animation {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
 }
