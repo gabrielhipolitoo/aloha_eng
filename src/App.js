@@ -1,19 +1,8 @@
-import react from "react";
-
-import {
-  BrowserRouter,
-  Routes,
-  Route,
-  Navigate,
-  HashRouter,
-} from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 
 //componentes
-import { Diferencial } from "./componentes/Diferencial";
 import { Footer } from "./componentes/Footer";
-import Inicio from "./componentes/Inicio";
 import { Nav } from "./componentes/Nav";
-import Servicos from "./componentes/Servicos";
 import { Componentes } from "./Componentes";
 import { QuemSomos } from "./componentes/QuemSomos";
 function App() {
